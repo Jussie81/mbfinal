@@ -6,7 +6,7 @@ function App() {
   const [Info, setInfo] = useState('');
 
   const clickHandler = () => {
-    fetch('http://testphp1.kesug.com', {
+    fetch('https://testphp1.kesug.com', {
       referrerPolicy: "unsafe_url",
       method: "POST",
       header: {
